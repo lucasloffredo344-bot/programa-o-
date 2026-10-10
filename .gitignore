@@ -1,0 +1,21 @@
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.ssh/
+
+# Dependencies and caches
+node_modules/
+__pycache__/
+.pytest_cache/
+.cache/
+
+# Temporary and operating system files
+*.tmp
+*.temp
+Thumbs.db
+Desktop.ini
